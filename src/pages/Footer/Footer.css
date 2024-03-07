@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 0;
+    font-family: "Poppins";
+
+    
+}
+
+.iconimg {
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
+.footerfirsticon span {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footerfirstwords {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footerfirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerfirsticonp{
+    display: flex;
+    flex-direction: row;
+    color: rgb(60, 60, 60);
+    opacity: 0.6;
+    
+    
+}
+
+.footersecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footericons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+.footercontact {
+    display: flex;
+    flex-direction: row;
+}

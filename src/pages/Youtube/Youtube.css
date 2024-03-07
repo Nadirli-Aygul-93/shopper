@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.youtube {
+    width: 100%;
+     height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+
+
+}
+
+.textt{
+    display: none;
+}
+
+
+
+.texttt {
+    display: block;
+}
+
+
+
+.talkheaderr {
+    display: none;
+
+}
+
+.empty {
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+}
+
+.talktowordsfooter {
+    margin-top: 300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.talkfooterdisplay {
+    display: none;
+}
+.messageword {
+    padding-left: 10px;
+}
+
+.messageword p {
+    color: rgb(73, 69, 69);
+}
+
+.messagebuton1 {
+    border: none;
+    cursor: pointer;
+}
+
+.youtubegalery {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 100px;
+    gap: 30px;
+    height: 500px;
+    
+    
+}
+
+.youtubewords2{
+
+    
+    margin-left: 50px;
+    font-family: "Poppins";
+    padding-right: 30px;
+    
+
+}
+
+.youtubeimg1{
+    border-top-left-radius: 20px;
+    margin-left: 75px;
+    margin-top: 70px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.youtubeimg2 {
+    margin-top: 96px;
+    object-fit: contain;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.youtubewords {
+
+    margin-left: 50px;
+    font-family: "Poppins";
+    padding-right: 30px;
+    
+}
+
+.youtubeitem {
+    background-color: rgb(248, 241, 241);
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+.butonyoutube1{
+    position: absolute;
+    bottom: 90px;
+    left: 40px;
+    width: 250px;
+    height: 70px;
+    overflow: hidden;
+    font-family: "Poppins";
+    font-weight: 600;
+    border-color: rgb(212, 63, 63);
+    border-radius: 10px;
+    color: rgb(238, 56, 56);
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.youtubespan{
+    color: rgb(231, 75, 75);
+}
+
+.spanyoutube2{
+    color: rgba(69, 23, 69, 0.896);
+}
+
+.butonyoutube2{
+
+    position: absolute;
+    bottom: 85px;
+    left: 40px;
+    width: 250px;
+    height: 70px;
+    overflow: hidden;
+    font-family: "Poppins";
+    font-weight: 600;
+    border-color: rgb(212, 63, 63);
+    border-radius: 10px;
+    color: rgb(238, 56, 56);
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.messagebuton2{
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    color: orangered;
+    
+}
+
+
+
+.message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 2px;
+}
+
+.youtubeh1 {
+    margin-bottom: 30px;
+}
+
+.youtubeitem2 {
+    margin-right: 80px;
+}
+
+
+.talkto {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(231, 132, 96);
+    margin-top: 100px;
+
+}
+
+.orange {
+    width: 200px;
+    height: 400px;
+    background-color: brown;
+    position: absolute;
+    right: 20px;
+}
+

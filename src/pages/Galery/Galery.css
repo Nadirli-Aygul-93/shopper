@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+.galery {
+    width: 100%;
+    height: 250vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+}
+
+.grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    padding: 30px;
+    gap: 50px;
+    
+}
+
+.in{
+    color: rgb(130, 88, 170);
+}
+.all {
+    color: rgb(211, 71, 71);
+}
+
+.redbuton{
+    color: rgb(208, 76, 36);
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+
+
+
+
+.h2red {
+    color: rgb(195, 71, 57);
+}
+
+.gridimg img{
+    overflow: hidden;
+}
+.h2violet {
+    color: rgb(159, 109, 206);
+}
+
+
+
+.grid1 {
+    background-color: rgb(237, 236, 235);
+    border-radius: 20px;
+    
+    
+    
+}
+
+.gridetail{
+    margin: 70px;
+    font-family: "Poppins";
+    
+}
