@@ -1,39 +1,40 @@
 import React, { useState } from 'react'
 import "./Youtube.css"
-import { FcNext } from "react-icons/fc";
-import { FaHome } from "react-icons/fa";
-import { MdMessage } from "react-icons/md";
-import { MdOutlineGif } from "react-icons/md";
+
+import { FaHandsClapping } from "react-icons/fa6";
+import { GrFormNext } from "react-icons/gr";
+import { LuHome } from "react-icons/lu";
+import { TbMessageSearch } from "react-icons/tb";
+import { MdGif } from "react-icons/md";
 import { FaRegSmile } from "react-icons/fa";
-import { GrAttachment } from "react-icons/gr";
+import { ImAttachment } from "react-icons/im";
 
 
 function Youtube() {
 
-    const[us,setus] = useState(false)
-    const[sec,setsec] = useState(false)
-    const[first,setfirst] = useState(true)
+  const [first,setfirst] = useState(true)
+  const [second,setsecond] = useState(false)
+  const[orng,setorng] = useState(false)
 
-const talkk = () => {
-    if(us == true) {
-        setus(false)
+  const orange = () => {
+    if(orng == false) {
+        setorng(true)
     }else {
-        setus(true)
+        setorng(false)
     }
-};
-
-const hand = () => {
-    if(sec == true) {
-        setsec(false)
-    }else {
-        setsec(true)
-    }
-    if(first == true) {
+  }
+  
+    
+const hand = ()=> {
+    if(first==true){
         setfirst(false)
     }else {
         setfirst(true)
     }
 
+    setsecond(!second)
+
+    
     
 }
    
@@ -52,7 +53,7 @@ const hand = () => {
                 </div>
                 
                     <div className='youtubeimg1'><img src="https://th.bing.com/th/id/OIP.KMJXWEreRy1FTyLWjODenQHaE8?rs=1&pid=ImgDetMain" width="370px" height="400px"   /></div>
-                <button className='butonyoutube1' onClick={talkk}>Talk to us</button>
+                <button className='butonyoutube1' onClick={orange}>Talk to us</button>
             </div>
             <div className='youtubeitem youtubeitem2'>
                 <div className='youtubewords2'>
@@ -65,29 +66,67 @@ const hand = () => {
             </div>
         </div> 
 
-        {
-          us&&  (
-                <div className='orange'>
-                   {
-                    first&&(
-                        <div >
-                        <h1>kjkes</h1>
-                        <button onClick={hand}>send</button>
-                    </div>
-                    )
-                   }
-                   {
-                    sec&&(
-                        <div>
-                        <h1>jkfkejfsk</h1>
-                        <span>dhkmf</span>
-                    </div>
-                    )
-                   }
-                </div>
-            )
-        }
+       {
+        orng&&(
+            <div className='orange'>
+    
+       {
+        first&&(
+
+            <div>
+                <div className='orimg'>
+            <img src="https://static.intercomassets.com/avatars/5673800/square_128/Nina-1691508407.png" width="50px" height="50px" />
+        </div>
+        <div className='orwords'>
+            <h1>Hi There<FaHandsClapping className='orwordsic'/></h1>
+            <h1>How can help you?</h1>
+        </div>
+        <div className='orsend'>
+            <div>
+            <button onClick={hand}>Send us message</button>
+            <p>We will back later</p>
+            </div>
+            <button><GrFormNext /></button>
+
+        </div>
+        <div className='orfoot'>
+            <div className='home'>
+                <span className='orichome'><LuHome /></span>
+                <p>Home</p>
+            </div>
+            <div className='messages'>
+                <span className='oricmessages'><TbMessageSearch /></span>
+                <p>Messages</p>
+            </div>
+
+        </div>
+            </div>
+
+        )
+       }
+       
+
+       
+            <div className={`ornone${second? `orblock` : ``}`} >
+
+        <h1>We will be back later</h1>
+        <div className='ortextarea'></div>
+       <div className='orinput' >
+       <input type="text" placeholder='write a reply ...' />
+       <span><MdGif />
+       <FaRegSmile />
+       <ImAttachment /></span>
+
+
+       </div>
+
+
+       </div>
         
+       </div>
+        
+        )
+       }
           
 </div>
         )

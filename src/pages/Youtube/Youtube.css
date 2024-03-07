@@ -205,3 +205,116 @@
     right: 20px;
 }
 
+.orange {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: orangered;
+    
+}
+
+
+.orsend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.orsend p {
+    color: rgb(154, 153, 153);
+    margin-bottom: 5px;
+
+}
+.orimg {
+    overflow: hidden;
+    margin: 10px;
+    
+    
+}
+
+.orsend button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.orwords {
+    margin: 20px;
+    font-family: "Poppins";
+    color: aliceblue;
+
+}
+
+
+
+.orwordsic {
+    color: yellow;
+}
+
+.orblock {
+    display: block;
+}
+
+.ortextarea {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.ornone {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orinput {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.orinput input {
+    width: 80%;
+    height: 70%;
+    border: 1px solid rgb(143, 141, 141);
+    border-radius: 5px;
+}
+
+.orinput span{
+    font-size: 20px;
+    color: rgb(86, 84, 84);
+    
+}
+
+
+
+.ornone h1 {
+    margin: 50px;
+    overflow: hidden;
+}
+
+
+
+
+.orfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-color: rgb(152, 147, 147);
+    margin-top: 10px;
+    padding-top: 15px;
+    height: 20%;
+}
+
+.orfoot span {
+    font-size: 30px;
+
+}
