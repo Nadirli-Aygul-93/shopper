@@ -14,13 +14,13 @@ function Navbar() {
        </Link>
         </div>
         <ul className='nav-menu'>
-            <li><Link to="/" >Features</Link></li>
-            <li><Link to ="/wordpressplugin">WordPressPlugin</Link></li>
-            <li><Link to='/pricing'>Pricing</Link></li>
-            <li><Link to ="/resources">Resources</Link></li>
+            <li><Link to="/features" >Features</Link></li>
+            <li><Link to ="/">WordPressPlugin</Link></li>
+            <li><Link to='/'>Pricing</Link></li>
+            <li><Link to ="/">Resources</Link></li>
         </ul>
         <div className='but'>
-            <button className='login'>Log In</button>
+            <Link to ="/signup"><button className='login'>Log In</button></Link>
             <button className='red'>Get started-it"s free</button>
         </div>
     </div>
