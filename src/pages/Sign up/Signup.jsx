@@ -50,6 +50,7 @@ return (
         <div className='loggbut'><FcGoogle  className='logic'/><Link to = "">Sign up with Google</Link> </div>
         <div className='loggbut'><ImFacebook2 className='logic' /><Link to = "">Sign up with Facebook</Link></div>
     
+    
         
     </div>)
     }
